@@ -63,5 +63,5 @@ fn random_email_username_pass(domain: &str, length: usize, amount: i32, file_nam
 }
 
 fn main() {
-    random_email_username_pass("proton.me", 8, 100, "listTradingview.txt");
+    random_email_username_pass("proton.me", 10, 100, "listTradingview.txt");
 }
